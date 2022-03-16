@@ -10,7 +10,7 @@ body{
 }
 
 .calc-container {
-    width: 450px;
+    width: 430px;
 }
 .calc-result{
     background-color: hsl(224, 36%, 15%);
@@ -21,7 +21,7 @@ body{
 }
 button{
     background-color: rgb(212, 212, 212);
-    width:80px ;
+    width:60px ;
     height: 40px;
     border-radius: 3px;
     cursor: pointer;
@@ -41,4 +41,18 @@ button{
     color: white;
     background-color: hsl(222, 26%, 31%);
     border-color: hsl(221, 18%, 38%);
+}
+
+@media (max-width: 470px){
+    .btn-special{
+        width: 140px;
+    }
+    
+}
+
+@media (min-width: 470px){
+    button{
+        width: 80px;
+    }
+    
 }
